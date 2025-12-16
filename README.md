@@ -24,7 +24,7 @@ This dataset, which was used for training and for designing QR-STAR, has four mo
 - `optimal_rooting_astral.5.7.8-truegenetrees_[NUM-GENES]`: Optimal rooting of ASTRAL species tree estimated using `[NUM-GENES]` true gene trees
 - `qr-v1.2.4-le-star.estimatedgenetre_[SEQ-LEN].non_[NUM-GENES].astral`: QR-STAR rooting of ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
 - `qr-v1.2.4-le.estimatedgenetre_[SEQ-LEN].non_[NUM-GENES].astral`: QR rooting of ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
-- ``
+- `qr_le_v1.2.4_estgenetrees_[SEQ-LEN].non_[SHAPE-COEF]_[AB-RATIO]`: QR-STAR rooting of the true species tree given 1000 gene trees estimated from alignments of length `[SEQ-LEN]` where `[SHAPE-COEF]` and `[AB-RATIO]` specify the shape coefficient $C$ (default 1E-02) and the ratio $\frac{\alpha_{max}}{\beta_{min}}$ (default 0) in QR-STAR.
 
 ### 200-taxon simulations
 
