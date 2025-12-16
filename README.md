@@ -11,6 +11,20 @@ All data can be accessed from [this](https://drive.google.com/drive/folders/1eGr
 
 ## Simulated datasets
 ### 100-taxon simulations
+This dataset, which was used for training and for designing QR-STAR, has four model conditions with varying sequence lengths (1600bp, 800bp, 400bp, 200bp) corresponding to different levels of gene tree estimation error (23%, 31%, 42%, and 55%), each with 50 replicates. The original dataset is from [Zhang et. al. (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y) and available at [https://gitlab.com/esayyari/ASTRALIII/](https://gitlab.com/esayyari/ASTRALIII/). Results and intermediate data from the experiments in the paper are in `ASTRALIII.tar.xz`. Below is a description of files in each directory.
+
+- `s_tree.trees`: true species tree in generation units
+- `truegenetrees_[NUM-GENES]`: `[NUM-GENES]` true gene trees (by default 1000 if not specified)
+- `estimatedgenetre_[SEQ-LEN].gtr.rerooted.final.contracted.non_[NUM-GENES]`: `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
+- `ad.txt`: average RF distance between the model species tree and true gene trees
+- `gtee_[SEQ-LEN].txt`: average RF distance between estimated gene trees (inferred from alignments of length `[SEQ-LEN]`) and true gene trees
+- `astral.5.7.8-estimatedgenetre_[SEQ-LEN].non_[NUM-GENES]`: ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
+- `astral.5.7.8-truegenetrees_[NUM-GENES]`: ASTRAL species tree estimated using `[NUM-GENES]` true gene trees
+- `optimal_rooting_astral.5.7.8-estimatedgenetre_[SEQ-LEN].non_[NUM-GENES]`: Optimal rooting of ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
+- `optimal_rooting_astral.5.7.8-truegenetrees_[NUM-GENES]`: Optimal rooting of ASTRAL species tree estimated using `[NUM-GENES]` true gene trees
+- `qr-v1.2.4-le-star.estimatedgenetre_[SEQ-LEN].non_[NUM-GENES].astral`: QR-STAR rooting of ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
+- `qr-v1.2.4-le.estimatedgenetre_[SEQ-LEN].non_[NUM-GENES].astral`: QR rooting of ASTRAL species tree estimated using `[NUM-GENES]` gene trees estimated from alignments of length `[SEQ-LEN]`
+- ``
 
 ### 200-taxon simulations
 
