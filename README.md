@@ -7,7 +7,7 @@ This repository includes the datasets and scripts used in the following papers:
 
 For experiments in this study, we studied a collection of simulated datasets with incomplete lineage sorting (ILS). We used the 100- and 200-taxon published datasets from [Zhang et al. (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y) and [Mirarab and Warnow (2015)](https://academic.oup.com/bioinformatics/article/31/12/i44/215524) and the avian and mammalian simulated datasets from [Mirarab et al. (2014)](https://www.science.org/doi/full/10.1126/science.1250463).
 
-All data can be accessed from [this](https://drive.google.com/drive/folders/1eGrH1ejoxBqVC6DVIhuU5cwJqjSGQZiU?usp=sharing) Google Drive link. This repository includes the scripts and results from the experiments in the paper.
+All data can be accessed from Dryad at https://doi.org/10.5061/dryad.79cnp5j9f. This repository includes the scripts and results from the experiments in the paper.
 
 ## Simulated datasets
 ### 101-taxon simulations
